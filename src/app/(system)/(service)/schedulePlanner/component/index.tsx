@@ -222,6 +222,7 @@ const IndexPage = (props: IndexPageProps, ref: any) => {
       handleOpenSchedule(row, 3);
       setCurrentItem(row);
       setIsChild(true);
+      console.log("object");
     });
   };
 
