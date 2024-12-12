@@ -1,0 +1,67 @@
+.progress-wraper {
+  padding-bottom: 40px;
+}
+.progress-bar {
+  background: #e7edf1;
+  height: 26px;
+}
+.progress-bar li {
+  padding: 0px 20px;
+  height: 26px;
+  /* background: var(--primary-color); */
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  .p-text {
+    position: absolute;
+    bottom: -40px;
+    color: #8f8f8f;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.progress-bar li:first-child {
+  padding-left: 25px;
+}
+.progress-bar li:last-child,
+.cssNavEnd {
+  padding-right: 25px;
+}
+.progress-bar li.active:first-child:before {
+  display: none;
+}
+.progress-bar li.active:last-child:after,
+.cssNavEnd:after {
+  display: none;
+}
+
+.progress-bar li.active {
+  background: var(--primary-color);
+  .p-text.active {
+    color: var(--primary-color);
+  }
+}
+
+.progress-bar li.active:after {
+  content: "";
+  display: block;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  border-left: 13px solid var(--primary-color);
+  position: absolute;
+  right: -13px;
+  top: 0;
+  z-index: 6;
+}
+
+.progress-bar li.active:before {
+  content: "";
+  display: block;
+  border-top: 13px solid var(--primary-color);
+  border-bottom: 13px solid var(--primary-color);
+  border-left: 13px solid #e7edf1;
+  position: absolute;
+  left: 0px;
+  top: 0;
+}

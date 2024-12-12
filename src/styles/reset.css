@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  color: var(--primary-text);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* reset input */
+input:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+input.remove-number-input-arrows::-webkit-outer-spin-button,
+input.remove-number-input-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input.remove-number-input-arrows[type="number"] {
+  -moz-appearance: textfield;
+}
+
+textarea::placeholder {
+  color: #00000040 !important;
+}

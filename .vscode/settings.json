@@ -1,0 +1,22 @@
+{
+  "cSpell.words": [
+    "clsx",
+    "freebird",
+    "googlemaps",
+    "HHPD",
+    "Immer",
+    "Latlong",
+    "nextjs",
+    "Stepbar",
+    "Unpublish",
+    "zustand"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[sass]": {
+    "editor.formatOnSave": false
+  }
+}

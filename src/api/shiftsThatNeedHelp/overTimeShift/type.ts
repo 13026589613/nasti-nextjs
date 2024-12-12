@@ -1,0 +1,25 @@
+import { NeedHelpShiftStatusVo } from "@/app/(system)/(service)/shiftsNeedHelp/types";
+export type OvertimeShiftVO = {
+  departmentId: string;
+  departmentName: string;
+  endTimeLocal: string;
+  endTime: string;
+  startTime: string;
+  id: string;
+  locationNames: string;
+  note: string;
+  phone: string;
+  reason: string;
+  reviewBy: string;
+  scheduleEndDate: string;
+  scheduleId: string;
+  scheduleStartDate: string;
+  shiftId: string;
+  startTimeLocal: string;
+  status: NeedHelpShiftStatusVo;
+  userId: string;
+  userName: string;
+  weekOfYear: number;
+  workerRoleId: string;
+  workerRoleName: string;
+};

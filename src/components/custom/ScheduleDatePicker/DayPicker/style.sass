@@ -1,0 +1,120 @@
+.schedule-day-picker
+  .rc-picker-date-panel
+    width: 288px !important
+    .rc-picker-active-bar
+      background: #e51a9f !important
+
+    .rc-picker-range-separator
+      margin: 0 5px !important
+
+    .rc-picker-clear
+      top: 50% !important
+      transform: translateY(-50%) !important
+
+    .rc-picker-focused
+      border: none !important
+
+    .rc-picker-input
+      border: none !important
+
+      input
+        background: transparent !important
+        &:focus-visible
+          outline: none !important
+
+  .rc-picker-dropdown
+    box-shadow: none !important
+    z-index: 99999999 !important
+  
+  .rc-picker-panel-container
+    box-shadow: 0px 2px 8px 0px #00000026
+    border-radius: 4px
+    overflow: hidden
+
+  .rc-picker-panel
+    border: 0
+    background-color: #fff
+
+  .rc-picker-header
+
+    height: 40px
+    padding: 0 8px
+    border-bottom: 1px solid #E7EDF1
+    box-shadow: 0px -1px 0px 0px #F0F0F0 inset
+    button
+      width: 22px
+      font-size: 28px
+      color: rgba(0, 0, 0, 0.25)
+    .rc-picker-header-view
+      display: flex
+      align-items: center
+      justify-content: center
+      gap: 8px
+      button
+        width: auto
+        color: rgba(0, 0, 0, 0.85)!important
+        font-weight: 400!important
+        font-size: 14px!important
+  .rc-picker-body
+    padding: 8px 12px
+  .rc-picker-content
+    width: 100%
+    tr
+      height: 30px
+      td
+        box-sizing: border-box
+      .rc-picker-cell
+        width: 24px
+        height: 24px
+        border-radius: 2px
+        padding: 6px 0 !important
+        .rc-picker-cell-inner
+          display: flex
+          align-items: center
+          justify-content: center
+          width: 100%
+          height: 100%
+          border-radius: 2px
+          font-size: 14px
+          font-weight: 400
+    .rc-picker-cell-today
+      .rc-picker-cell-inner
+        border-color: #EB1DB2!important
+    .rc-picker-cell-hover
+      .rc-picker-cell-inner
+        background-color: #EB1DB2
+        color: #fff!important
+    .rc-picker-cell-selected
+      .rc-picker-cell-inner
+        background-color: #EB1DB2
+        color: #fff!important
+  .rc-picker-ranges
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 42px
+    border-top: 1px solid #F0F0F0
+    background-color: #fff
+    color: #EB1DB2
+
+
+  .rc-picker-week-panel-row-selected
+    .rc-picker-cell
+      background-color: #EB1DB2 !important
+      color: #fff
+  
+
+  .rc-picker-cell
+    .rc-picker-cell-inner
+      &:hover
+        background-color: #EB1DB2
+        color: #fff!important
+
+  .rc-picker-year-panel 
+    width: 288px !important
+    
+  .rc-picker-month-panel
+    width: 288px !important
+
+  .rc-picker-decade-panel
+    width: 288px !important

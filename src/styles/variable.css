@@ -1,0 +1,15 @@
+:root {
+  /* layout */
+  --sidebar-width: 250px;
+  --sidebar-collapse-width: 71px;
+  /*theme color*/
+  --primary-color: #eb1db2;
+  --purple: Purple;
+  --shadowGreen: #b7dfc4;
+  --shadowBlue: #bbcfea;
+  --shadowPrimary: #c7c1f3;
+  --shallowGreen: #69cbcc;
+  --pink: pink;
+  --shadowYellow: #d37745;
+  --yellow: #f5894e;
+}

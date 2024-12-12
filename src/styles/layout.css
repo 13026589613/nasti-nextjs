@@ -1,0 +1,41 @@
+.layout-mobile {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  height: 100%;
+}
+
+.layout-mobile.openSidebar {
+  left: 0;
+}
+
+.layout-mobile.hideSidebar {
+  left: -210px;
+}
+
+.drawer-bg {
+  background: #000;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+input::-ms-reveal {
+  display: none;
+}
+input::-ms-clear {
+  display: none;
+}
+input::-o-clear {
+  display: none;
+}
